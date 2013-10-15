@@ -1,5 +1,3 @@
-package np.core;
-
 option java_package = "com.noveltyplant.messages";
 
 message RpcMethodDescriptor {
@@ -14,7 +12,6 @@ message ArgumentType {
   optional ProtobufType proto_type = 3;
 
   enum Type {
-    ID = 1;
     PROTOBUF = 2;
     NONE = 3;
   }
