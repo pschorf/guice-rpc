@@ -1,0 +1,30 @@
+buildscript {
+  repositories {
+    mavenCentral()
+  }
+  dependencies {
+    classpath 'ws.antonov.gradle.plugins:gradle-plugin-protobuf:0.8'
+  }
+}
+
+apply plugin: 'protobuf'
+
+configurations {
+  deployerJars
+}
+
+uploadArchives {
+  repositories.mavenDeployer {
+    configuration = configurations.deployerJars
+  }
+}
+
+dependencies {
+  compile 'com.google.inject:guice:3.0'
+  compile 'com.google.inject.extensions:guice-multibindings:3.0'
+  compile 'com.google.protobuf:protobuf-java:2.4.1'
+  compile 'com.sun.jersey:jersey-client:1.17.1'
+  compile 'com.sun.jersey:jersey-core:1.17.1'
+  compile 'com.sun.jersey:jersey-server:1.17.1'
+  compile 'com.sun.jersey.contribs:jersey-guice:1.17.1'
+}

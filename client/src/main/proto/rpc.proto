@@ -1,0 +1,26 @@
+package np.core;
+
+option java_package = "com.noveltyplant.messages";
+
+message RpcMethodDescriptor {
+  optional string method_name = 1;
+  optional ArgumentType argument_type = 2;
+  optional ProtobufType return_type = 3;
+}
+
+message ArgumentType {
+  optional Type type = 1;
+  optional string id_type = 2;
+  optional ProtobufType proto_type = 3;
+
+  enum Type {
+    ID = 1;
+    PROTOBUF = 2;
+    NONE = 3;
+  }
+}
+
+message ProtobufType {
+  optional string type_name = 1;
+  optional string python_type = 2;
+}
