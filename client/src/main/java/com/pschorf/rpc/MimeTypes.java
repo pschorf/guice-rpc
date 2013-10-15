@@ -1,4 +1,4 @@
-package com.noveltyplant.rpc;
+package com.pschorf.rpc;
 
 public interface MimeTypes {
 	public static String JSON = "application/json";

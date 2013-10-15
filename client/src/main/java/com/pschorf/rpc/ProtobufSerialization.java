@@ -1,4 +1,4 @@
-package com.noveltyplant.rpc;
+package com.pschorf.rpc;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

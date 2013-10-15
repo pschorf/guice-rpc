@@ -1,4 +1,4 @@
-package com.noveltyplant.rpc;
+package com.pschorf.rpc;
 
 import com.google.inject.Binder;
 import com.google.inject.Provider;

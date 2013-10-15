@@ -27,4 +27,6 @@ dependencies {
   compile 'com.sun.jersey:jersey-core:1.17.1'
   compile 'com.sun.jersey:jersey-server:1.17.1'
   compile 'com.sun.jersey.contribs:jersey-guice:1.17.1'
+  testCompile 'junit:junit:4.10'
+  testCompile 'org.mockito:mockito-all:1.9.5'
 }

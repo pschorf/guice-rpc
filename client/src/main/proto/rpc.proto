@@ -1,4 +1,4 @@
-option java_package = "com.noveltyplant.messages";
+option java_package = "com.pschorf.messages";
 
 message RpcMethodDescriptor {
   optional string method_name = 1;

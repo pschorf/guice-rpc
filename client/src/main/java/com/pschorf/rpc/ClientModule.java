@@ -1,4 +1,4 @@
-package com.noveltyplant.rpc;
+package com.pschorf.rpc;
 
 import java.net.URI;
 

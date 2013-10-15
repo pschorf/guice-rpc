@@ -1,8 +1,8 @@
-package com.noveltyplant.rpc;
+package com.pschorf.rpc;
+
 import com.google.inject.Inject;
 import com.google.inject.Injector;
 import com.google.protobuf.Message;
-import com.noveltyplant.rpc.MimeTypes;
 import com.sun.jersey.api.client.Client;
 
 import java.lang.reflect.InvocationHandler;

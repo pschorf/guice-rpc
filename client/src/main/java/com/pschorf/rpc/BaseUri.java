@@ -1,4 +1,4 @@
-package com.noveltyplant.rpc;
+package com.pschorf.rpc;
 
 import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.ElementType.METHOD;
