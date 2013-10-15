@@ -1,0 +1,32 @@
+buildscript {
+   repositories {
+      mavenCentral()
+      maven { url "https://oss.sonatype.org/content/groups/public"}
+   }
+   dependencies {
+      classpath 'com.github.townsfolk:gradle-release:1.2'
+   }
+}
+apply plugin: 'release'
+
+allprojects {
+  apply plugin: 'maven'
+  apply plugin: 'java'
+  apply plugin: 'eclipse'
+  apply plugin: 'jacoco'
+  group = 'com.noveltyplant'
+  repositories {
+    mavenCentral()
+  }
+
+  eclipse.classpath.file {
+    whenMerged { classpath ->
+      classpath.entries.findAll { entry -> entry.kind == 'output' }*.path = 'build/eclipse'
+    }
+  }
+  createReleaseTag.dependsOn uploadArchives
+}
+
+dependencies {
+  compile project(':server')
+}
