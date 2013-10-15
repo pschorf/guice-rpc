@@ -1,4 +1,4 @@
-package com.noveltyplant.rest.server;
+package com.pschorf.rpc.server;
 
 import java.util.Collections;
 
@@ -9,8 +9,8 @@ import com.google.inject.Module;
 import com.google.inject.Singleton;
 import com.google.inject.Stage;
 import com.google.inject.servlet.GuiceServletContextListener;
-import com.noveltyplant.rest.server.rpc.RpcServlet;
-import com.noveltyplant.rpc.ProtobufSerialization;
+import com.pschorf.rpc.server.rpc.RpcServlet;
+import com.pschorf.rpc.ProtobufSerialization;
 import com.sun.jersey.guice.JerseyServletModule;
 import com.sun.jersey.guice.spi.container.servlet.GuiceContainer;
 

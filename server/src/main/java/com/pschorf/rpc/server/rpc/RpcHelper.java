@@ -1,10 +1,10 @@
-package com.noveltyplant.rest.server.rpc;
+package com.pschorf.rpc.server.rpc;
 
 import com.google.common.collect.ImmutableMap;
 import com.google.inject.Inject;
 import com.google.protobuf.AbstractMessage;
-import com.noveltyplant.messages.Rpc.RpcMethodDescriptor;
-import com.noveltyplant.rpc.InjectedService;
+import com.pschorf.messages.Rpc.RpcMethodDescriptor;
+import com.pschorf.rpc.InjectedService;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;

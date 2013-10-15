@@ -1,13 +1,13 @@
-package com.noveltyplant.rest.server.rpc;
+package com.pschorf.rpc.server.rpc;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import com.noveltyplant.messages.Rpc.ArgumentType.Type;
-import com.noveltyplant.messages.Rpc.ProtobufType;
-import com.noveltyplant.messages.Rpc.RpcMethodDescriptor;
+import com.pschorf.messages.Rpc.ArgumentType.Type;
+import com.pschorf.messages.Rpc.ProtobufType;
+import com.pschorf.messages.Rpc.RpcMethodDescriptor;
 
 public class MethodDescriptorTest {
 

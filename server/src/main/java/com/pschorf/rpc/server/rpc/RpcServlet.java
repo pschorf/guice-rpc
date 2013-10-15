@@ -1,9 +1,9 @@
-package com.noveltyplant.rest.server.rpc;
+package com.pschorf.rpc.server.rpc;
 
 import com.google.inject.Inject;
 import com.google.protobuf.AbstractMessage;
-import com.noveltyplant.messages.Rpc.RpcMethodDescriptor;
-import com.noveltyplant.rpc.MimeTypes;
+import com.pschorf.messages.Rpc.RpcMethodDescriptor;
+import com.pschorf.rpc.MimeTypes;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;

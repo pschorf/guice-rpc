@@ -1,4 +1,4 @@
-package com.noveltyplant.rest.server;
+package com.pschorf.rpc.server;
 
 import java.io.IOException;
 import java.io.OutputStream;

@@ -1,4 +1,4 @@
-package com.noveltyplant.rest.server.rpc;
+package com.pschorf.rpc.server.rpc;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.ParameterizedType;
@@ -7,9 +7,9 @@ import java.lang.reflect.Type;
 import com.google.protobuf.AbstractMessage;
 import com.google.protobuf.Descriptors.Descriptor;
 import com.google.protobuf.Message;
-import com.noveltyplant.messages.Rpc.ArgumentType;
-import com.noveltyplant.messages.Rpc.ProtobufType;
-import com.noveltyplant.messages.Rpc.RpcMethodDescriptor;
+import com.pschorf.messages.Rpc.ArgumentType;
+import com.pschorf.messages.Rpc.ProtobufType;
+import com.pschorf.messages.Rpc.RpcMethodDescriptor;
 
 class MethodDescriptor {
 

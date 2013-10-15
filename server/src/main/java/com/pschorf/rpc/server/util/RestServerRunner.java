@@ -1,4 +1,4 @@
-package com.noveltyplant.rest.server.util;
+package com.pschorf.rpc.server.util;
 
 import java.util.Collections;
 
@@ -9,8 +9,8 @@ import org.eclipse.jetty.servlet.DefaultServlet;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 
 import com.google.inject.servlet.GuiceFilter;
-import com.noveltyplant.rest.server.RestServerModule;
-import com.noveltyplant.rest.server.RestServletConfig;
+import com.pschorf.rpc.server.RestServerModule;
+import com.pschorf.rpc.server.RestServletConfig;
 
 public class RestServerRunner {
   public static void main(String[] args) throws Exception {

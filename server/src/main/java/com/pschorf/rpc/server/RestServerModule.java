@@ -1,4 +1,4 @@
-package com.noveltyplant.rest.server;
+package com.pschorf.rpc.server;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.core.MediaType;
@@ -10,7 +10,7 @@ import com.google.inject.AbstractModule;
 import com.google.inject.Module;
 import com.google.inject.Provides;
 import com.google.inject.servlet.RequestScoped;
-import com.noveltyplant.rest.server.rpc.RpcServerModule;
+import com.pschorf.rpc.server.rpc.RpcServerModule;
 import com.sun.jersey.api.core.HttpContext;
 
 public class RestServerModule extends AbstractModule {
